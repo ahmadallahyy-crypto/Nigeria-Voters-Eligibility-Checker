@@ -42,7 +42,7 @@
       width: 100%;
       padding: 10px;
       border: 1px solid #d3baba;
-      border-radius: 4px;
+      border-radius: 3px;
       font-size: 14px;
       box-sizing: border-box;
     }
@@ -111,20 +111,25 @@
       text-align: center;
       color: #008751;
       margin-bottom: 20px;
-      font-size: 18px;
+      font-size: 16px;
     }
 
     .flag {
       text-align: center;
-      font-size: 24px;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    img {
+      vertical-align: middle;
+      width: 200px;
+      margin: 0 auto;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="flag">🇳🇬</div>
+  <div class="flag"> <img src="INEC-logo-e1546261102728-1.png" alt="INEC Logo" width="100"></div>
   <h1>Nigeria Voters Eligibility Checker</h1>
   <div class="form-title">INEC Voter Registration Verification System</div>
 
